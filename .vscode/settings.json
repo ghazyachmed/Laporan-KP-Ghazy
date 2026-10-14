@@ -20,10 +20,11 @@
   ],
   "latex-workshop.latex.recipes": [
     {
-      "name": "XeLaTeX -> Biber -> XeLaTeX x2",
+      "name": "XeLaTeX -> Biber -> XeLaTeX x3",
       "tools": [
         "xelatex",
         "biber",
+        "xelatex",
         "xelatex",
         "xelatex"
       ]
