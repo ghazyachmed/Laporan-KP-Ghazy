@@ -13,6 +13,10 @@ in-ter-pre-ta-tion ex-haus-tive
 in-ter-pre-ta-si trans-for-ma-si me-nger-ja-kan pen-jad-wal-an
 }
 
+% Daftar Pustaka: tanggal akses APA dalam Bahasa Indonesia ("Diakses pada 30 September 2026, dari")
+\DeclareFieldFormat{urldate}{%
+  Diakses pada \thefield{urlday}~\ifcase\thefield{urlmonth}\or Januari\or Februari\or Maret\or April\or Mei\or Juni\or Juli\or Agustus\or September\or Oktober\or November\or Desember\fi~\thefield{urlyear}, dari}
+
 \begin{document}
 \frontmatter
 \frontmatterToc
@@ -34,7 +38,7 @@ in-ter-pre-ta-si trans-for-ma-si me-nger-ja-kan pen-jad-wal-an
 \input{Bab IV - Penutup.tex}
 
 \cleardoublepage
-\printbibliography[title={DAFTAR PUSTAKA}]
+\printbibliography[title={DAFTAR PUSTAKA},heading=bibintoc]
 
 \appendix
 \begin{appendices}
